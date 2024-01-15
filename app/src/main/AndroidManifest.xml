@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+    <uses-permission-sdk-23 android:name="android.permission.CALL_PHONE" />
+    <uses-permission-sdk-23 android:name="android.permission.READ_MEDIA_VIDEO" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_uno"
+        android:label="SOES"
+        android:roundIcon="@drawable/logo_uno"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SOES"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".admin.admin_solicitudesItem"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_solicitudesAdapter"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_solicitudes"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_perfil"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_editarUsuarios"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_editarSoporte"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_soporteItem"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_soporte"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_inicio"
+            android:exported="false" />
+        <activity
+            android:name=".admin.admin_login"
+            android:exported="false" />
+        <activity
+            android:name=".inicializacion.usuario_acercaNosotros"
+            android:exported="false" />
+        <activity
+            android:name=".inicializacion.usuario_editarPerfil"
+            android:exported="false" />
+        <activity
+            android:name=".inicializacion.usuario_perfil"
+            android:exported="false" />
+        <activity
+            android:name=".inicializacion.usuario_soporteItem"
+            android:exported="false" />
+        <activity
+            android:name=".inicializacion.usuario_soporte"
+            android:exported="false" />
+        <activity
+            android:name=".Grafica.explorarGrafica"
+            android:exported="false" />
+        <activity
+            android:name=".inicializacion.usuario_inicio"
+            android:exported="false" />
+        <activity
+            android:name=".inicializacion.usuario_registro"
+            android:exported="false" />
+        <activity
+            android:name=".inicializacion.usuario_login"
+            android:exported="false" />
+        <activity
+            android:name=".inicializacion.usuario_pantallaCarga"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

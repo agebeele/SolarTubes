@@ -1,0 +1,19 @@
+<resources>
+    <string-array name="spinner_items">
+        <item>Tubo 1</item>
+        <item>Tubo 2</item>
+        <item>Tubo 3</item>
+        <item>Tubo 4</item>
+    </string-array>
+
+    <string-array name="SOES">
+        <item>Project Manager: Eduardo Sebastian Piña Chavarria</item>
+        <item>Product Owner: Ociel Josue Tabal Velasco</item>
+        <item>Developers: Brandon Adrian Lopez Garcia</item>
+        <item>Software architect: Eduardo Sebastian Piña Chavarria</item>
+        <item>Especialista en UI/UX: Ociel Josue Tabal Velasco</item>
+        <item>Ingeniero de control de calidad (QA): Brandon Adrian Lopez Garcia</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

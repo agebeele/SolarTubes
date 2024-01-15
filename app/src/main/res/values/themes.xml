@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SOES" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/azulBarra</item>
+        <item name="colorPrimaryVariant">@color/azulFondo</item>
+
+        <item name="android:statusBarColor">@color/azulBarra</item>
+    </style>
+
+    <style name="Theme.SOES" parent="Base.Theme.SOES" />
+</resources>
