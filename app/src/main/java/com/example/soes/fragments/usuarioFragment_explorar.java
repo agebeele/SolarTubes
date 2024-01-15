@@ -36,10 +36,10 @@ public class usuarioFragment_explorar extends Fragment implements AdapterView.On
     ArrayList<Entry> xValues;
     LineData lineData;
     private String[] tablaUrls = {
-            "http://192.168.100.16:80/Conexion_SOES/tubo_uno.php",
-            "http://192.168.100.16:80/Conexion_SOES/tubo_dos.php",
-            "http://192.168.100.16:80/Conexion_SOES/tubo_tres.php",
-            "http://192.168.100.16:80/Conexion_SOES/tubo_cuatro.php"
+            "http://192.168.137.180:32/Conexion_SOES/tubo_uno.php",
+            "http://192.168.137.180:32/Conexion_SOES/tubo_dos.php",
+            "http://192.168.137.180:32/Conexion_SOES/tubo_tres.php",
+            "http://192.168.137.180:32/Conexion_SOES/tubo_cuatro.php"
     };
 
     @Override

@@ -33,14 +33,6 @@
             android:padding="16dp" >
 
         </androidx.recyclerview.widget.RecyclerView>
-
-        <View
-            android:id="@+id/separator_line"
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_below="@+id/inicio_text"
-            android:layout_marginTop="40dp"
-            android:background="@android:color/darker_gray" />
     </androidx.cardview.widget.CardView>
 
     <!-- RecyclerView debajo del TextView y del separador -->

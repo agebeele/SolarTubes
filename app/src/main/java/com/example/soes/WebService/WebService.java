@@ -13,7 +13,7 @@ public class WebService {
     public String eliminarCalentador(String id) {
         String aux = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/crud_borrar.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/crud_borrar.php");
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
             conexion.setRequestMethod("POST");
             conexion.setDoOutput(true);
@@ -51,7 +51,7 @@ public class WebService {
     public String buscarCalentador (String id) {
         String response = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/crud_buscar.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/crud_buscar.php");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setDoOutput(true);
@@ -90,7 +90,7 @@ public class WebService {
                                   String pagina_web, String correo_e, String direccion) {
         String response = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/crud_insertar.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/crud_insertar.php");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setDoOutput(true);
@@ -140,7 +140,7 @@ public class WebService {
                                     String pagina_web, String correo_e, String direccion){
         String response = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/crud_actualizar.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/crud_actualizar.php");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setDoOutput(true);
@@ -188,7 +188,7 @@ public class WebService {
     public String enviarSolicitud(String id, String nombre, String paterno, String materno, String telefono, String correo, String contra, String fecha, String hora) {
         String response = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/actualizarInfo.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/actualizarInfo.php");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setDoOutput(true);
@@ -229,7 +229,7 @@ public class WebService {
     public String buscarUno() {
         String aux = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/crud_buscar_RV.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/crud_buscar_RV.php");
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
             conexion.setRequestMethod("POST");
             conexion.setDoOutput(true);
@@ -267,7 +267,7 @@ public class WebService {
     public String login(String correo, String contra) {
         String aux = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/login_soes.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/login_soes.php");
 
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
             conexion.setRequestMethod("POST");
@@ -310,7 +310,7 @@ public class WebService {
     public String login_admin(String correo, String contra) {
         String aux = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/login_admin.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/login_admin.php");
 
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
             conexion.setRequestMethod("POST");
@@ -353,7 +353,7 @@ public class WebService {
     public String registarUsuario (String nombre, String paterno, String materno, String telefono, String correo, String contra) {
         String response = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/registro_soes.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/registro_soes.php");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setDoOutput(true);
@@ -399,7 +399,7 @@ public class WebService {
     public String datosUsuarioCorreo(String correo) {
         String aux = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/datos_usuario.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/datos_usuario.php");
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
             conexion.setRequestMethod("POST");
             conexion.setDoOutput(true);
@@ -429,7 +429,7 @@ public class WebService {
     public String eliminarUsuario(String id) {
         String aux = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/borrar_usuario.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/borrar_usuario.php");
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
             conexion.setRequestMethod("POST");
             conexion.setDoOutput(true);
@@ -467,7 +467,7 @@ public class WebService {
     public String buscarUsuario (String id) {
         String response = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/buscar_usuario.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/buscar_usuario.php");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setDoOutput(true);
@@ -505,7 +505,7 @@ public class WebService {
     public String actualizarUsuario (String nombre, String paterno, String materno, String telefono, String contra){
         String response = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/actualizarInfo.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/actualizar_usuario.php");
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setDoOutput(true);
@@ -542,7 +542,7 @@ public class WebService {
     public String datosAdmin(String correo) {
         String aux = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/datosAdmin.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/datosAdmin.php");
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
             conexion.setRequestMethod("POST");
             conexion.setDoOutput(true);
@@ -572,7 +572,7 @@ public class WebService {
     public String solicitudesInformacion() {
         String aux = "";
         try {
-            URL url = new URL("http://192.168.100.16:80/Conexion_SOES/solicitudes_info.php");
+            URL url = new URL("http://192.168.137.180:32/Conexion_SOES/solicitudes_info.php");
             HttpURLConnection conexion = (HttpURLConnection) url.openConnection();
             conexion.setRequestMethod("POST");
             conexion.setDoOutput(true);
